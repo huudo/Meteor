@@ -1,0 +1,10 @@
+<template name="commentItem">
+  <li>
+    <h4>
+      <span class="author">{{author}}</span>
+      <span class="date">on {{submittedText}}</span>
+      {{#if ownNew}}<a class="delete" href=""><span class="glyphicon glyphicon-remove"></span></a>{{/if}}
+    </h4>
+    <p>{{body}}</p>
+  </li>
+</template>
